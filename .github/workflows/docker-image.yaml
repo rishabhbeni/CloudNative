@@ -21,6 +21,6 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: /devops_cicd/lecture384/.
+        context: devops_cicd/lecture384
         push: true
         tags: rishabhbeni/productservice:latest
